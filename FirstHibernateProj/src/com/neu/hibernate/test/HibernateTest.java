@@ -23,8 +23,8 @@ public class HibernateTest {
 		
 		UserDetails user = new UserDetails();
 		
-		user.setUserId(1);
-		user.setUserName("Richa");
+		user.setUserId(2);
+		user.setUserName("Sanket");
 		
 		
 		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
